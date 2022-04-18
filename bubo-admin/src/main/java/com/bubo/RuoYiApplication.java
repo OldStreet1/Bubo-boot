@@ -17,12 +17,12 @@ import java.awt.event.ActionListener;
 @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
 public class RuoYiApplication
 {
-//    public static void main(String[] args)
-//    {
-//        // System.setProperty("spring.devtools.restart.enabled", "false");
-//        SpringApplication.run(RuoYiApplication.class, args);
-//        System.out.println("积木系统启动");
-//    }
+    public static void main(String[] args)
+    {
+        // System.setProperty("spring.devtools.restart.enabled", "false");
+        SpringApplication.run(RuoYiApplication.class, args);
+        System.out.println("积木系统启动");
+    }
 
 
 

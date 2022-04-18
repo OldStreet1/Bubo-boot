@@ -213,6 +213,13 @@
                 <version>${bubo.version}</version>
             </dependency>
 
+<!--            &lt;!&ndash; 商城项目&ndash;&gt;-->
+<!--            <dependency>-->
+<!--                <groupId>com.bubo</groupId>-->
+<!--                <artifactId>m_shopping</artifactId>-->
+<!--                <version>${bubo.version}</version>-->
+<!--            </dependency>-->
+
         </dependencies>
     </dependencyManagement>
 
