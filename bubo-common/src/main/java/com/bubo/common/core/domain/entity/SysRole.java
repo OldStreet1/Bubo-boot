@@ -2,6 +2,10 @@ package com.bubo.common.core.domain.entity;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import com.bubo.common.annotation.Excel;
@@ -10,9 +14,12 @@ import com.bubo.common.core.domain.BaseEntity;
 
 /**
  * 角色表 sys_role
- * 
+ *
  * @author ruoyi
  */
+@Getter
+@Setter
+@ToString
 public class SysRole extends BaseEntity
 {
     private static final long serialVersionUID = 1L;
@@ -203,24 +210,24 @@ public class SysRole extends BaseEntity
     {
         this.deptIds = deptIds;
     }
-    
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
-            .append("roleId", getRoleId())
-            .append("roleName", getRoleName())
-            .append("roleKey", getRoleKey())
-            .append("roleSort", getRoleSort())
-            .append("dataScope", getDataScope())
-            .append("menuCheckStrictly", isMenuCheckStrictly())
-            .append("deptCheckStrictly", isDeptCheckStrictly())
-            .append("status", getStatus())
-            .append("delFlag", getDelFlag())
-            .append("createBy", getCreateBy())
-            .append("createTime", getCreateTime())
-            .append("updateBy", getUpdateBy())
-            .append("updateTime", getUpdateTime())
-            .append("remark", getRemark())
-            .toString();
-    }
+
+//    @Override
+//    public String toString() {
+//        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
+//            .append("roleId", getRoleId())
+//            .append("roleName", getRoleName())
+//            .append("roleKey", getRoleKey())
+//            .append("roleSort", getRoleSort())
+//            .append("dataScope", getDataScope())
+//            .append("menuCheckStrictly", isMenuCheckStrictly())
+//            .append("deptCheckStrictly", isDeptCheckStrictly())
+//            .append("status", getStatus())
+//            .append("delFlag", getDelFlag())
+//            .append("createBy", getCreateBy())
+//            .append("createTime", getCreateTime())
+//            .append("updateBy", getUpdateBy())
+//            .append("updateTime", getUpdateTime())
+//            .append("remark", getRemark())
+//            .toString();
+//    }
 }

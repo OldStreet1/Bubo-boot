@@ -2,12 +2,19 @@ package com.bubo.common.exception.base;
 
 import com.bubo.common.utils.MessageUtils;
 import com.bubo.common.utils.StringUtils;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 /**
  * 基础异常
- * 
+ *
  * @author ruoyi
  */
+
+@Getter
+@Setter
+@ToString
 public class BaseException extends RuntimeException
 {
     private static final long serialVersionUID = 1L;

@@ -5,15 +5,22 @@ import java.util.List;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import com.bubo.common.core.domain.BaseEntity;
 
 /**
  * 部门表 sys_dept
- * 
+ *
  * @author ruoyi
  */
+@Getter
+@Setter
+@ToString
 public class SysDept extends BaseEntity
 {
     private static final long serialVersionUID = 1L;
@@ -50,7 +57,7 @@ public class SysDept extends BaseEntity
 
     /** 父部门名称 */
     private String parentName;
-    
+
     /** 子部门 */
     private List<SysDept> children = new ArrayList<SysDept>();
 
@@ -180,23 +187,23 @@ public class SysDept extends BaseEntity
         this.children = children;
     }
 
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
-            .append("deptId", getDeptId())
-            .append("parentId", getParentId())
-            .append("ancestors", getAncestors())
-            .append("deptName", getDeptName())
-            .append("orderNum", getOrderNum())
-            .append("leader", getLeader())
-            .append("phone", getPhone())
-            .append("email", getEmail())
-            .append("status", getStatus())
-            .append("delFlag", getDelFlag())
-            .append("createBy", getCreateBy())
-            .append("createTime", getCreateTime())
-            .append("updateBy", getUpdateBy())
-            .append("updateTime", getUpdateTime())
-            .toString();
-    }
+//    @Override
+//    public String toString() {
+//        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
+//            .append("deptId", getDeptId())
+//            .append("parentId", getParentId())
+//            .append("ancestors", getAncestors())
+//            .append("deptName", getDeptName())
+//            .append("orderNum", getOrderNum())
+//            .append("leader", getLeader())
+//            .append("phone", getPhone())
+//            .append("email", getEmail())
+//            .append("status", getStatus())
+//            .append("delFlag", getDelFlag())
+//            .append("createBy", getCreateBy())
+//            .append("createTime", getCreateTime())
+//            .append("updateBy", getUpdateBy())
+//            .append("updateTime", getUpdateTime())
+//            .toString();
+//    }
 }

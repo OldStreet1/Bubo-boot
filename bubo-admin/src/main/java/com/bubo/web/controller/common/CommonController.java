@@ -20,8 +20,8 @@ import com.bubo.framework.config.ServerConfig;
 
 /**
  * 通用请求处理
- * 
- * @author ruoyi
+ *
+ * @author bubo
  */
 @RestController
 public class CommonController
@@ -33,7 +33,7 @@ public class CommonController
 
     /**
      * 通用下载请求
-     * 
+     *
      * @param fileName 文件名称
      * @param delete 是否删除
      */

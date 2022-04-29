@@ -2,6 +2,10 @@ package com.bubo.common.core.domain.entity;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import com.bubo.common.annotation.Excel;
@@ -10,9 +14,12 @@ import com.bubo.common.core.domain.BaseEntity;
 
 /**
  * 字典类型表 sys_dict_type
- * 
+ *
  * @author ruoyi
  */
+@Getter
+@Setter
+@ToString
 public class SysDictType extends BaseEntity
 {
     private static final long serialVersionUID = 1L;
@@ -76,19 +83,19 @@ public class SysDictType extends BaseEntity
     {
         this.status = status;
     }
-    
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
-            .append("dictId", getDictId())
-            .append("dictName", getDictName())
-            .append("dictType", getDictType())
-            .append("status", getStatus())
-            .append("createBy", getCreateBy())
-            .append("createTime", getCreateTime())
-            .append("updateBy", getUpdateBy())
-            .append("updateTime", getUpdateTime())
-            .append("remark", getRemark())
-            .toString();
-    }
+
+//    @Override
+//    public String toString() {
+//        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
+//            .append("dictId", getDictId())
+//            .append("dictName", getDictName())
+//            .append("dictType", getDictType())
+//            .append("status", getStatus())
+//            .append("createBy", getCreateBy())
+//            .append("createTime", getCreateTime())
+//            .append("updateBy", getUpdateBy())
+//            .append("updateTime", getUpdateTime())
+//            .append("remark", getRemark())
+//            .toString();
+//    }
 }

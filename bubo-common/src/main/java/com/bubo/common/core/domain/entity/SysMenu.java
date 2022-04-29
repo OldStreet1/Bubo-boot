@@ -5,15 +5,22 @@ import java.util.List;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import com.bubo.common.core.domain.BaseEntity;
 
 /**
  * 菜单权限表 sys_menu
- * 
+ *
  * @author ruoyi
  */
+@Getter
+@Setter
+@ToString
 public class SysMenu extends BaseEntity
 {
     private static final long serialVersionUID = 1L;
@@ -53,7 +60,7 @@ public class SysMenu extends BaseEntity
 
     /** 显示状态（0显示 1隐藏） */
     private String visible;
-    
+
     /** 菜单状态（0显示 1隐藏） */
     private String status;
 
@@ -232,28 +239,28 @@ public class SysMenu extends BaseEntity
     {
         this.children = children;
     }
-    
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
-            .append("menuId", getMenuId())
-            .append("menuName", getMenuName())
-            .append("parentId", getParentId())
-            .append("orderNum", getOrderNum())
-            .append("path", getPath())
-            .append("component", getComponent())
-            .append("isFrame", getIsFrame())
-            .append("IsCache", getIsCache())
-            .append("menuType", getMenuType())
-            .append("visible", getVisible())
-            .append("status ", getStatus())
-            .append("perms", getPerms())
-            .append("icon", getIcon())
-            .append("createBy", getCreateBy())
-            .append("createTime", getCreateTime())
-            .append("updateBy", getUpdateBy())
-            .append("updateTime", getUpdateTime())
-            .append("remark", getRemark())
-            .toString();
-    }
+
+//    @Override
+//    public String toString() {
+//        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
+//            .append("menuId", getMenuId())
+//            .append("menuName", getMenuName())
+//            .append("parentId", getParentId())
+//            .append("orderNum", getOrderNum())
+//            .append("path", getPath())
+//            .append("component", getComponent())
+//            .append("isFrame", getIsFrame())
+//            .append("IsCache", getIsCache())
+//            .append("menuType", getMenuType())
+//            .append("visible", getVisible())
+//            .append("status ", getStatus())
+//            .append("perms", getPerms())
+//            .append("icon", getIcon())
+//            .append("createBy", getCreateBy())
+//            .append("createTime", getCreateTime())
+//            .append("updateBy", getUpdateBy())
+//            .append("updateTime", getUpdateTime())
+//            .append("remark", getRemark())
+//            .toString();
+//    }
 }

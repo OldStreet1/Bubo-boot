@@ -21,8 +21,8 @@ import com.bubo.system.service.ISysConfigService;
 
 /**
  * 验证码操作处理
- * 
- * @author ruoyi
+ *
+ * @author bubo
  */
 @RestController
 public class CaptchaController
@@ -35,7 +35,7 @@ public class CaptchaController
 
     @Autowired
     private RedisCache redisCache;
-    
+
     @Autowired
     private ISysConfigService configService;
     /**
