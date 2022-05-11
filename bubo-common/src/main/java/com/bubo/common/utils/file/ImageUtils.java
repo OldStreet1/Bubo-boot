@@ -10,7 +10,7 @@ import java.util.Arrays;
 import org.apache.poi.util.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.bubo.common.config.RuoYiConfig;
+import com.bubo.common.config.BuBoConfig;
 import com.bubo.common.constant.Constants;
 import com.bubo.common.utils.StringUtils;
 
@@ -58,7 +58,7 @@ public class ImageUtils
 
     /**
      * 读取文件为字节数据
-     * 
+     *
      * @param key 地址
      * @return 字节数据
      */
@@ -81,7 +81,7 @@ public class ImageUtils
             else
             {
                 // 本机地址
-                String localPath = RuoYiConfig.getProfile();
+                String localPath = BuBoConfig.getProfile();
                 String downloadPath = localPath + StringUtils.substringAfter(url, Constants.RESOURCE_PREFIX);
                 in = new FileInputStream(downloadPath);
             }
