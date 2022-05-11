@@ -16,11 +16,8 @@ import com.bubo.common.core.domain.BaseEntity;
 /**
  * 部门表 sys_dept
  *
- * @author ruoyi
+ * @author bubo
  */
-@Getter
-@Setter
-@ToString
 public class SysDept extends BaseEntity
 {
     private static final long serialVersionUID = 1L;
@@ -187,23 +184,23 @@ public class SysDept extends BaseEntity
         this.children = children;
     }
 
-//    @Override
-//    public String toString() {
-//        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
-//            .append("deptId", getDeptId())
-//            .append("parentId", getParentId())
-//            .append("ancestors", getAncestors())
-//            .append("deptName", getDeptName())
-//            .append("orderNum", getOrderNum())
-//            .append("leader", getLeader())
-//            .append("phone", getPhone())
-//            .append("email", getEmail())
-//            .append("status", getStatus())
-//            .append("delFlag", getDelFlag())
-//            .append("createBy", getCreateBy())
-//            .append("createTime", getCreateTime())
-//            .append("updateBy", getUpdateBy())
-//            .append("updateTime", getUpdateTime())
-//            .toString();
-//    }
+    @Override
+    public String toString() {
+        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
+            .append("deptId", getDeptId())
+            .append("parentId", getParentId())
+            .append("ancestors", getAncestors())
+            .append("deptName", getDeptName())
+            .append("orderNum", getOrderNum())
+            .append("leader", getLeader())
+            .append("phone", getPhone())
+            .append("email", getEmail())
+            .append("status", getStatus())
+            .append("delFlag", getDelFlag())
+            .append("createBy", getCreateBy())
+            .append("createTime", getCreateTime())
+            .append("updateBy", getUpdateBy())
+            .append("updateTime", getUpdateTime())
+            .toString();
+    }
 }
