@@ -22,7 +22,8 @@
         <bitwalker.version>1.21</bitwalker.version>
         <swagger.version>3.0.0</swagger.version>
         <kaptcha.version>2.3.2</kaptcha.version>
-        <mybatis-spring-boot.version>2.2.0</mybatis-spring-boot.version>
+<!--        <mybatis-spring-boot.version>2.2.0</mybatis-spring-boot.version>-->
+        <mybatis-plus-spring-boot.version>2.2.0</mybatis-plus-spring-boot.version>
         <pagehelper.boot.version>1.4.0</pagehelper.boot.version>
         <fastjson.version>1.2.79</fastjson.version>
         <oshi.version>5.8.6</oshi.version>
@@ -65,10 +66,17 @@
             </dependency>
 
             <!-- SpringBoot集成mybatis框架 -->
+<!--            <dependency>-->
+<!--                <groupId>org.mybatis.spring.boot</groupId>-->
+<!--                <artifactId>mybatis-spring-boot-starter</artifactId>-->
+<!--                <version>${mybatis-spring-boot.version}</version>-->
+<!--            </dependency>-->
+
+            <!-- SpringBoot集成mybatis-plus框架 -->
             <dependency>
-                <groupId>org.mybatis.spring.boot</groupId>
-                <artifactId>mybatis-spring-boot-starter</artifactId>
-                <version>${mybatis-spring-boot.version}</version>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus-spring-boot.version}</version>
             </dependency>
 
             <!-- pagehelper 分页插件 -->
@@ -222,12 +230,12 @@
                 <version>${bubo.version}</version>
             </dependency>
 
-<!--            &lt;!&ndash; 商城项目&ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>com.bubo</groupId>-->
-<!--                <artifactId>m_shopping</artifactId>-->
-<!--                <version>${bubo.version}</version>-->
-<!--            </dependency>-->
+            <!-- 学习项目-->
+            <dependency>
+                <groupId>com.bubo</groupId>
+                <artifactId>bubo-knowledge</artifactId>
+                <version>${bubo.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

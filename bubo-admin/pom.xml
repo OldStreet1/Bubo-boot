@@ -61,6 +61,12 @@
             <artifactId>bubo-generator</artifactId>
         </dependency>
 
+        <!-- 学习项目-->
+        <dependency>
+            <groupId>com.bubo</groupId>
+            <artifactId>bubo-knowledge</artifactId>
+        </dependency>
+
 
     </dependencies>
 
