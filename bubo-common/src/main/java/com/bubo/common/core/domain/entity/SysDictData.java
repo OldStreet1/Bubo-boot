@@ -16,12 +16,9 @@ import com.bubo.common.core.domain.BaseEntity;
 /**
  * 字典数据表 sys_dict_data
  *
- * @author ruoyi
+ * @author bubo
  */
 
-@Getter
-@Setter
-@ToString
 public class SysDictData extends BaseEntity
 {
     private static final long serialVersionUID = 1L;
@@ -162,23 +159,23 @@ public class SysDictData extends BaseEntity
         this.status = status;
     }
 
-//    @Override
-//    public String toString() {
-//        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
-//            .append("dictCode", getDictCode())
-//            .append("dictSort", getDictSort())
-//            .append("dictLabel", getDictLabel())
-//            .append("dictValue", getDictValue())
-//            .append("dictType", getDictType())
-//            .append("cssClass", getCssClass())
-//            .append("listClass", getListClass())
-//            .append("isDefault", getIsDefault())
-//            .append("status", getStatus())
-//            .append("createBy", getCreateBy())
-//            .append("createTime", getCreateTime())
-//            .append("updateBy", getUpdateBy())
-//            .append("updateTime", getUpdateTime())
-//            .append("remark", getRemark())
-//            .toString();
-//    }
+    @Override
+    public String toString() {
+        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
+            .append("dictCode", getDictCode())
+            .append("dictSort", getDictSort())
+            .append("dictLabel", getDictLabel())
+            .append("dictValue", getDictValue())
+            .append("dictType", getDictType())
+            .append("cssClass", getCssClass())
+            .append("listClass", getListClass())
+            .append("isDefault", getIsDefault())
+            .append("status", getStatus())
+            .append("createBy", getCreateBy())
+            .append("createTime", getCreateTime())
+            .append("updateBy", getUpdateBy())
+            .append("updateTime", getUpdateTime())
+            .append("remark", getRemark())
+            .toString();
+    }
 }
