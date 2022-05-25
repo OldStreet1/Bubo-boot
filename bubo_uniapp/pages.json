@@ -1,0 +1,67 @@
+{
+	"pages": [
+		 {
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "登录页"
+			}
+
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/msg/msg",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+
+	},
+
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#098bef",
+		"borderStyle": "black",
+		"backgroundColor": "#f7f7f7",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/index/tarbar-icon-sy.png",
+				"selectedIconPath": "static/index/tarbar-selectedicon-sy.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/msg/msg",
+				"iconPath": "static/index/tarbar-icon-xx.png",
+				"selectedIconPath": "static/index/tarbar-selectedicon-xx.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/index/tarbar-icon-my.png",
+				"selectedIconPath": "static/index/tarbar-selectedicon-my.png",
+				"text": "我的"
+			}
+		]
+	}
+}

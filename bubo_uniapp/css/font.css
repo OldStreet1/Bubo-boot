@@ -1,0 +1,37 @@
+.c-z-m-fontsize-light{font-size: 24upx;}
+.c-z-m-fontsize-14{font-size: 28upx;}
+.c-z-m-fontsize-16{font-size: 32upx;}
+.c-z-m-fontsize-17{font-size: 34upx;}
+.c-z-m-fontsize-18{font-size: 36upx;}
+.c-z-m-iconsize-24{font-size: 48upx !important;}
+.c-z-m-text-center{text-align: center;}
+.c-z-m-text-color-999{color:#999 ;}
+.c-z-m-text-color-666{color:#666 ;}
+.c-z-m-text-color-333{color:#333;}
+.c-z-m-text-color-red{color:#ff0000 ;}
+.c-z-m-text-color-green{color:#1dcd0f ;}
+.c-z-m-text-color-light{color:#8e929c ;}
+.c-z-m-text-color-white{color:#fff ;}
+.c-z-m-text-color-blue{color:#007aff ;}
+.c-z-m-text-color-orange{color:#fa7d3c ;}
+
+.c-z-m-fontsize-normal{font-weight:normal;}
+.c-z-m-fongweight-x{font-weight: bold;}
+.c-z-m-text-right{text-align: right;}
+.c-z-m-text-left{text-align: left;}
+/* 字体隐藏 */
+.c-z-text-overflow {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.c-z-text-overflow-one{display: -webkit-box;word-break: break-all;text-overflow: -o-ellipsis-lastline; overflow: hidden;
+text-overflow: ellipsis;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.c-z-text-overflow-clamp{
+overflow:hidden; 
+text-overflow:ellipsis;
+display:-webkit-box; 
+-webkit-box-orient:vertical;
+-webkit-line-clamp:2; }
+
+
