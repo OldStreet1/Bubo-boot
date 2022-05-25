@@ -107,7 +107,8 @@
 	@import "../../css/base.css";
 
 	page{
-		background: url(../../static/home/index.jpg) no-repeat;
+		background-color: #007AFF;
+		/* background: url(../../static/home/index.jpg) no-repeat; */
 		background-size: 100% auto;
 	}
 	.c-z-m-input{
