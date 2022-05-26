@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import com.bubo.common.annotation.Log;
-import com.bubo.common.config.BuBoConfig;
+import com.bubo.common.config.RuoYiConfig;
 import com.bubo.common.constant.UserConstants;
 import com.bubo.common.core.controller.BaseController;
 import com.bubo.common.core.domain.AjaxResult;
@@ -126,7 +126,7 @@ public class SysProfileController extends BaseController
         if (!file.isEmpty())
         {
             LoginUser loginUser = getLoginUser();
-            String avatar = FileUploadUtils.upload(BuBoConfig.getAvatarPath(), file);
+            String avatar = FileUploadUtils.upload(RuoYiConfig.getAvatarPath(), file);
             if (userService.updateUserAvatar(loginUser.getUsername(), avatar))
             {
                 AjaxResult ajax = AjaxResult.success();

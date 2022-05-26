@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @ConfigurationProperties(prefix = "bubo")
-public class BuBoConfig
+public class RuoYiConfig
 {
     /** 项目名称 */
     private String name;
@@ -80,7 +80,7 @@ public class BuBoConfig
 
     public void setProfile(String profile)
     {
-        BuBoConfig.profile = profile;
+        RuoYiConfig.profile = profile;
     }
 
     public static boolean isAddressEnabled()
@@ -90,7 +90,7 @@ public class BuBoConfig
 
     public void setAddressEnabled(boolean addressEnabled)
     {
-        BuBoConfig.addressEnabled = addressEnabled;
+        RuoYiConfig.addressEnabled = addressEnabled;
     }
 
     public static String getCaptchaType() {
@@ -98,7 +98,7 @@ public class BuBoConfig
     }
 
     public void setCaptchaType(String captchaType) {
-        BuBoConfig.captchaType = captchaType;
+        RuoYiConfig.captchaType = captchaType;
     }
 
     /**
