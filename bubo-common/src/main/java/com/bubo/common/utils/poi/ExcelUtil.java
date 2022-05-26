@@ -65,7 +65,7 @@ import com.bubo.common.annotation.Excel;
 import com.bubo.common.annotation.Excel.ColumnType;
 import com.bubo.common.annotation.Excel.Type;
 import com.bubo.common.annotation.Excels;
-import com.bubo.common.config.RuoYiConfig;
+import com.bubo.common.config.BuBoConfig;
 import com.bubo.common.core.domain.AjaxResult;
 import com.bubo.common.core.text.Convert;
 import com.bubo.common.exception.UtilException;
@@ -1089,7 +1089,7 @@ public class ExcelUtil<T>
      */
     public String getAbsoluteFile(String filename)
     {
-        String downloadPath = RuoYiConfig.getDownloadPath() + filename;
+        String downloadPath = BuBoConfig.getDownloadPath() + filename;
         File desc = new File(downloadPath);
         if (!desc.getParentFile().exists())
         {

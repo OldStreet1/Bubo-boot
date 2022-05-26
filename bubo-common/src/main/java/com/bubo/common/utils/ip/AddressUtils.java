@@ -3,7 +3,7 @@ package com.bubo.common.utils.ip;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.alibaba.fastjson.JSONObject;
-import com.bubo.common.config.RuoYiConfig;
+import com.bubo.common.config.BuBoConfig;
 import com.bubo.common.constant.Constants;
 import com.bubo.common.utils.StringUtils;
 import com.bubo.common.utils.http.HttpUtils;
@@ -31,7 +31,7 @@ public class AddressUtils
         {
             return "内网IP";
         }
-        if (RuoYiConfig.isAddressEnabled())
+        if (BuBoConfig.isAddressEnabled())
         {
             try
             {
