@@ -39,37 +39,38 @@
 		methods: {
 			//进入查询openid是否存在
 			async onLoad(options) {
-				
+
 				var myDate = new Date();
 				var hours = myDate.getHours();
 				if(hours >= 0 && hours < 3){
-					this.title = "夜深了请注意休息"	
+					this.title = "夜深了请注意休息"
 				}else if(hours >= 3 && hours < 8){
-					this.title = "早起的鸟儿有虫吃"	
+					this.title = "早起的鸟儿有虫吃"
 				}else if(hours >= 8 && hours < 11){
-					this.title = "撸起袖子加油干"	
+					this.title = "撸起袖子加油干"
 				}else if(hours >= 11 && hours < 14){
-					this.title = "按时吃饭，好好休息"	
+					this.title = "按时吃饭，好好休息"
 				}else if(hours >= 14 && hours < 19){
-					this.title = "今天又是美好的一天"	
+					this.title = "今天又是美好的一天"
 				}else if(hours >= 19 && hours < 21){
-					this.title = "好好加油呦～"	
+					this.title = "好好加油呦～"
 				}else if(hours >= 21 && hours < 24){
-					this.title = "夜深了，注意休息"	
+					this.title = "夜深了，注意休息"
 				}
 			},
 			async bindLogin() {
-				
-			
+
+
 				var that = this;
 				console.log("登录")
 				uni.request({
-				    url: this.$url + "wxlogin", 
+				    url: this.$url + "login",
 					method: 'POST',
 				    data: {
 				        username: that.account,
 				        password: that.password,
-				    }, 
+				        loginType: "WX",
+				    },
 					dataType:'json',
 				    success: (res) => {
 				        console.log(res);
@@ -81,7 +82,7 @@
 							uni.switchTab({
 								url: "/pages/home/home",
 							});
-							
+
 						}else{
 							uni.showModal({
 								title: "提示",
@@ -90,15 +91,15 @@
 							})
 						}
 				        // this.text = 'request success';
-						
+
 				    }
 				});
-					
-				
+
+
 			}
 		}
 	};
-	
+
 </script>
 
 <style>

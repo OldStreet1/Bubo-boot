@@ -1,6 +1,6 @@
 <template>
 	<view>
-		123
+		首页
 	</view>
 </template>
 
@@ -14,6 +14,8 @@
 		methods: {
 			async onLoad(options) {
 				console.log(uni.getStorageSync('token'));
+				
+				//获取菜单
 				this.$request({
 					url: "getRouters",
 					method:'get',
