@@ -8,8 +8,8 @@ bubo:
   copyrightYear: 2022
   # 实例演示开关
   demoEnabled: true
-  # 文件路径 示例（ Windows配置D:/ruoyi/uploadPath，Linux配置 /home/ruoyi/uploadPath）
-  profile: D:/ruoyi/uploadPath
+  # 文件路径 示例（ Windows配置D:/bubo/uploadPath，Linux配置 /home/bubo/uploadPath）
+  profile: D:/bubo/uploadPath
   # 获取ip地址开关
   addressEnabled: false
   # 验证码类型 math 数组计算 char 字符验证
@@ -18,7 +18,7 @@ bubo:
 # 开发环境配置
 server:
   # 服务器的HTTP端口，默认为8080
-  port: 9090
+  port: 8080
   servlet:
     # 应用的访问路径
     context-path: /

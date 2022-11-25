@@ -10,7 +10,7 @@ import com.bubo.common.utils.spring.SpringUtils;
 /**
  * 字典工具类
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class DictUtils
 {

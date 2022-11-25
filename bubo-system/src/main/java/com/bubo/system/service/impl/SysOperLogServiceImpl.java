@@ -10,7 +10,7 @@ import com.bubo.system.service.ISysOperLogService;
 /**
  * 操作日志 服务层处理
  * 
- * @author ruoyi
+ * @author bubo
  */
 @Service
 public class SysOperLogServiceImpl implements ISysOperLogService

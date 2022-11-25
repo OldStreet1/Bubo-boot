@@ -11,7 +11,7 @@ import com.bubo.system.service.ISysRoleService;
 /**
  * 用户权限处理
  * 
- * @author ruoyi
+ * @author bubo
  */
 @Component
 public class SysPermissionService

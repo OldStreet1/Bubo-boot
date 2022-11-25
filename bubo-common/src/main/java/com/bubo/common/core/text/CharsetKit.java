@@ -7,7 +7,7 @@ import com.bubo.common.utils.StringUtils;
 /**
  * 字符集工具类
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class CharsetKit
 {

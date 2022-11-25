@@ -10,7 +10,7 @@ import com.bubo.framework.web.domain.Server;
 /**
  * 服务器监控
  * 
- * @author ruoyi
+ * @author bubo
  */
 @RestController
 @RequestMapping("/monitor/server")

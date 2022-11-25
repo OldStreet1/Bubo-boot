@@ -5,7 +5,7 @@ import com.bubo.common.utils.StringUtils;
 /**
  * 路由显示信息
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class MetaVo
 {

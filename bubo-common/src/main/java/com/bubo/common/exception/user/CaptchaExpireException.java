@@ -3,7 +3,7 @@ package com.bubo.common.exception.user;
 /**
  * 验证码失效异常类
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class CaptchaExpireException extends UserException
 {

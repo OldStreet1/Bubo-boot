@@ -26,7 +26,7 @@ import com.bubo.system.service.ISysUserOnlineService;
 /**
  * 在线用户监控
  * 
- * @author ruoyi
+ * @author bubo
  */
 @RestController
 @RequestMapping("/monitor/online")

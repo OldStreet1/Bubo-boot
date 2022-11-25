@@ -26,7 +26,7 @@ import com.bubo.system.service.ISysDeptService;
 /**
  * 部门信息
  * 
- * @author ruoyi
+ * @author bubo
  */
 @RestController
 @RequestMapping("/system/dept")

@@ -16,7 +16,7 @@ import com.bubo.common.utils.StringUtils;
 /**
  * 防止XSS攻击的过滤器
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class XssFilter implements Filter
 {

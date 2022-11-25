@@ -6,7 +6,7 @@ import com.bubo.system.domain.SysOperLog;
 /**
  * 操作日志 服务层
  * 
- * @author ruoyi
+ * @author bubo
  */
 public interface ISysOperLogService
 {

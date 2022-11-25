@@ -19,7 +19,7 @@ import com.bubo.framework.web.service.TokenService;
 /**
  * token过滤器 验证token有效性
  * 
- * @author ruoyi
+ * @author bubo
  */
 @Component
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter

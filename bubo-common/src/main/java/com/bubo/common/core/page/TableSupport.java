@@ -5,7 +5,7 @@ import com.bubo.common.utils.ServletUtils;
 /**
  * 表格数据处理
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class TableSupport
 {

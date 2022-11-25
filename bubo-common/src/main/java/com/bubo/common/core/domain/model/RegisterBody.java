@@ -3,7 +3,7 @@ package com.bubo.common.core.domain.model;
 /**
  * 用户注册对象
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class RegisterBody extends LoginBody
 {

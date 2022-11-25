@@ -3,7 +3,7 @@ package com.bubo.common.enums;
 /**
  * 限流类型
  *
- * @author ruoyi
+ * @author bubo
  */
 
 public enum LimitType

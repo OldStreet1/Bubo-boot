@@ -9,7 +9,7 @@ import com.bubo.common.utils.html.EscapeUtil;
 /**
  * 获取IP方法
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class IpUtils
 {

@@ -15,7 +15,7 @@ import com.bubo.common.utils.StringUtils;
 /**
  * Filter配置
  *
- * @author ruoyi
+ * @author bubo
  */
 @Configuration
 public class FilterConfig

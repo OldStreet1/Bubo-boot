@@ -3,7 +3,7 @@ package com.bubo.common.enums;
 /**
  * 数据源
  * 
- * @author ruoyi
+ * @author bubo
  */
 public enum DataSourceType
 {

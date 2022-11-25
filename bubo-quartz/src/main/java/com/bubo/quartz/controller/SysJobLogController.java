@@ -22,7 +22,7 @@ import com.bubo.quartz.service.ISysJobLogService;
 /**
  * 调度日志操作处理
  * 
- * @author ruoyi
+ * @author bubo
  */
 @RestController
 @RequestMapping("/monitor/jobLog")

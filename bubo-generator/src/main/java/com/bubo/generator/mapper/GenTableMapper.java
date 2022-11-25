@@ -6,7 +6,7 @@ import com.bubo.generator.domain.GenTable;
 /**
  * 业务 数据层
  * 
- * @author ruoyi
+ * @author bubo
  */
 public interface GenTableMapper
 {

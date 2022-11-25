@@ -16,7 +16,7 @@ import com.bubo.framework.interceptor.RepeatSubmitInterceptor;
 /**
  * 通用配置
  *
- * @author ruoyi
+ * @author bubo
  */
 @Configuration
 public class ResourcesConfig implements WebMvcConfigurer

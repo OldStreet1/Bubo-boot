@@ -7,7 +7,7 @@ import com.bubo.common.core.domain.entity.SysMenu;
 /**
  * 菜单表 数据层
  *
- * @author ruoyi
+ * @author bubo
  */
 public interface SysMenuMapper
 {

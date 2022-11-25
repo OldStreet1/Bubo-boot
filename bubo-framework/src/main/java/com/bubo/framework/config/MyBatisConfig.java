@@ -27,7 +27,7 @@ import com.bubo.common.utils.StringUtils;
 /**
  * Mybatis支持*匹配扫描包
  *
- * @author ruoyi
+ * @author bubo
  */
 @Configuration
 public class MyBatisConfig

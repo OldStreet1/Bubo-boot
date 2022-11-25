@@ -6,7 +6,7 @@ import com.bubo.system.domain.SysPost;
 /**
  * 岗位信息 数据层
  * 
- * @author ruoyi
+ * @author bubo
  */
 public interface SysPostMapper
 {

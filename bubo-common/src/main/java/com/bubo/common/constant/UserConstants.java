@@ -3,7 +3,7 @@ package com.bubo.common.constant;
 /**
  * 用户常量信息
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class UserConstants
 {

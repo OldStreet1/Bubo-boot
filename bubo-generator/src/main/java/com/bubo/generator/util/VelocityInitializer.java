@@ -7,7 +7,7 @@ import com.bubo.common.constant.Constants;
 /**
  * VelocityEngine工厂
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class VelocityInitializer
 {

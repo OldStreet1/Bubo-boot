@@ -5,7 +5,7 @@ import com.bubo.common.utils.Arith;
 /**
  * CPU相关信息
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class Cpu
 {

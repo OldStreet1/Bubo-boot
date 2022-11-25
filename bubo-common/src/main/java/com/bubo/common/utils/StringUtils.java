@@ -13,7 +13,7 @@ import com.bubo.common.core.text.StrFormatter;
 /**
  * 字符串工具类
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class StringUtils extends org.apache.commons.lang3.StringUtils
 {

@@ -33,7 +33,7 @@ import com.bubo.system.service.ISysUserService;
 /**
  * 角色信息
  * 
- * @author ruoyi
+ * @author bubo
  */
 @RestController
 @RequestMapping("/system/role")

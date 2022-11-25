@@ -6,7 +6,7 @@ import com.bubo.common.utils.StringUtils;
 /**
  * sql操作工具类
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class SqlUtil
 {

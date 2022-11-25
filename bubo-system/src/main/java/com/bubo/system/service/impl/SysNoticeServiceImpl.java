@@ -10,7 +10,7 @@ import com.bubo.system.service.ISysNoticeService;
 /**
  * 公告 服务层实现
  * 
- * @author ruoyi
+ * @author bubo
  */
 @Service
 public class SysNoticeServiceImpl implements ISysNoticeService

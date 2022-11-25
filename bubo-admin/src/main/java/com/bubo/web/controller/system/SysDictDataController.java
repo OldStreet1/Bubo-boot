@@ -28,7 +28,7 @@ import com.bubo.system.service.ISysDictTypeService;
 /**
  * 数据字典信息
  * 
- * @author ruoyi
+ * @author bubo
  */
 @RestController
 @RequestMapping("/system/dict/data")

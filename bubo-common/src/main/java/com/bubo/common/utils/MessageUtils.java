@@ -7,7 +7,7 @@ import com.bubo.common.utils.spring.SpringUtils;
 /**
  * 获取i18n资源文件
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class MessageUtils
 {

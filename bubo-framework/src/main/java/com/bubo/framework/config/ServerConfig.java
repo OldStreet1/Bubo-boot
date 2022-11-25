@@ -7,7 +7,7 @@ import com.bubo.common.utils.ServletUtils;
 /**
  * 服务相关配置
  * 
- * @author ruoyi
+ * @author bubo
  */
 @Component
 public class ServerConfig

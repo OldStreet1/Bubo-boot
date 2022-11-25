@@ -9,7 +9,7 @@ import com.bubo.system.service.ISysUserOnlineService;
 /**
  * 在线用户 服务层处理
  * 
- * @author ruoyi
+ * @author bubo
  */
 @Service
 public class SysUserOnlineServiceImpl implements ISysUserOnlineService

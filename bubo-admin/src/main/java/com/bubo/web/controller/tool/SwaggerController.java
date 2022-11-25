@@ -9,7 +9,7 @@ import com.bubo.common.core.controller.BaseController;
 /**
  * swagger 接口
  * 
- * @author ruoyi
+ * @author bubo
  */
 @Controller
 @RequestMapping("/tool/swagger")

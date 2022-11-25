@@ -30,7 +30,7 @@ import com.bubo.quartz.util.ScheduleUtils;
 /**
  * 调度任务信息操作处理
  * 
- * @author ruoyi
+ * @author bubo
  */
 @RestController
 @RequestMapping("/monitor/job")

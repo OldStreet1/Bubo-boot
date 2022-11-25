@@ -11,7 +11,7 @@ import com.bubo.common.utils.StringUtils;
 /**
  * 业务表 gen_table
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class GenTable extends BaseEntity
 {

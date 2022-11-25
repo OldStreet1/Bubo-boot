@@ -3,7 +3,7 @@ package com.bubo.common.exception;
 /**
  * 业务异常
  * 
- * @author ruoyi
+ * @author bubo
  */
 public final class ServiceException extends RuntimeException
 {

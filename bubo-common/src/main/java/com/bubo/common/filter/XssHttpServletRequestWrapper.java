@@ -15,7 +15,7 @@ import com.bubo.common.utils.html.EscapeUtil;
 /**
  * XSS过滤处理
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class XssHttpServletRequestWrapper extends HttpServletRequestWrapper
 {

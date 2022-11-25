@@ -3,7 +3,7 @@ package com.bubo.common.enums;
 /**
  * 操作人类别
  *
- * @author ruoyi
+ * @author bubo
  */
 public enum OperatorType
 {

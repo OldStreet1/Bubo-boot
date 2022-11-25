@@ -9,7 +9,7 @@ import com.bubo.common.utils.spring.SpringUtils;
 /**
  * 异步任务管理器
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class AsyncManager
 {

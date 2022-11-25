@@ -8,7 +8,7 @@ import com.bubo.system.domain.SysUserRole;
 /**
  * 角色业务层
  * 
- * @author ruoyi
+ * @author bubo
  */
 public interface ISysRoleService
 {

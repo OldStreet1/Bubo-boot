@@ -3,7 +3,7 @@ package com.bubo.common.constant;
 /**
  * 返回状态码
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class HttpStatus
 {

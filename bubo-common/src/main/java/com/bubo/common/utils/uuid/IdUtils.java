@@ -3,7 +3,7 @@ package com.bubo.common.utils.uuid;
 /**
  * ID生成器工具类
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class IdUtils
 {

@@ -22,7 +22,7 @@ import com.bubo.system.service.ISysLogininforService;
 /**
  * 系统访问记录
  * 
- * @author ruoyi
+ * @author bubo
  */
 @RestController
 @RequestMapping("/monitor/logininfor")

@@ -5,7 +5,7 @@ import com.bubo.common.utils.StringUtils;
 /**
  * 分页数据
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class PageDomain
 {

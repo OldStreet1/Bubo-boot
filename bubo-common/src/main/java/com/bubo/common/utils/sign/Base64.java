@@ -3,7 +3,7 @@ package com.bubo.common.utils.sign;
 /**
  * Base64工具类
  * 
- * @author ruoyi
+ * @author bubo
  */
 public final class Base64
 {

@@ -3,7 +3,7 @@ package com.bubo.common.enums;
 /**
  * 用户状态
  * 
- * @author ruoyi
+ * @author bubo
  */
 public enum UserStatus
 {

@@ -14,7 +14,7 @@ import com.bubo.common.utils.StringUtils;
 /**
  * Repeatable 过滤器
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class RepeatableFilter implements Filter
 {

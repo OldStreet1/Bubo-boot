@@ -3,7 +3,7 @@ package com.bubo.system.domain;
 /**
  * 当前在线会话
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class SysUserOnline
 {

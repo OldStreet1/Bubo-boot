@@ -9,7 +9,7 @@ import com.bubo.common.utils.StringUtils;
 /**
  * 首页
  *
- * @author ruoyi
+ * @author bubo
  */
 @RestController
 public class SysIndexController

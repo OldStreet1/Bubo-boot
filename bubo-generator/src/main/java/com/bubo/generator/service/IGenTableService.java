@@ -7,7 +7,7 @@ import com.bubo.generator.domain.GenTable;
 /**
  * 业务 服务层
  * 
- * @author ruoyi
+ * @author bubo
  */
 public interface IGenTableService
 {

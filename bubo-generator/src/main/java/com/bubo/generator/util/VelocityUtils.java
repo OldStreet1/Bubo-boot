@@ -15,7 +15,7 @@ import com.bubo.generator.domain.GenTableColumn;
 /**
  * 模板处理工具类
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class VelocityUtils
 {

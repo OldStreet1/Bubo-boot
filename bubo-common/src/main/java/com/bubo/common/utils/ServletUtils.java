@@ -12,7 +12,7 @@ import com.bubo.common.core.text.Convert;
 /**
  * 客户端工具类
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class ServletUtils
 {

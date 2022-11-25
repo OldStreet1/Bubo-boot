@@ -3,7 +3,7 @@ package com.bubo.common.exception;
 /**
  * 演示模式异常
  * 
- * @author ruoyi
+ * @author bubo
  */
 public class DemoModeException extends RuntimeException
 {

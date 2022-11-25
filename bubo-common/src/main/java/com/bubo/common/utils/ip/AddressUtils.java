@@ -11,7 +11,7 @@ import com.bubo.common.utils.http.HttpUtils;
 /**
  * 获取地址类
  *
- * @author ruoyi
+ * @author bubo
  */
 public class AddressUtils
 {

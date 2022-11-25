@@ -16,7 +16,7 @@ import com.bubo.common.utils.uuid.IdUtils;
 /**
  * 文件上传工具类
  *
- * @author ruoyi
+ * @author bubo
  */
 public class FileUploadUtils
 {

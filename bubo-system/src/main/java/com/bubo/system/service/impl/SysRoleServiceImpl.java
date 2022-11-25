@@ -28,7 +28,7 @@ import com.bubo.system.service.ISysRoleService;
 /**
  * 角色 业务层处理
  * 
- * @author ruoyi
+ * @author bubo
  */
 @Service
 public class SysRoleServiceImpl implements ISysRoleService

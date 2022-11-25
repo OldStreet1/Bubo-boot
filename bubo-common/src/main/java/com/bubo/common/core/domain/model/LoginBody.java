@@ -7,7 +7,7 @@ import lombok.ToString;
 /**
  * 用户登录对象
  *
- * @author ruoyi
+ * @author bubo
  */
 @Getter
 @Setter

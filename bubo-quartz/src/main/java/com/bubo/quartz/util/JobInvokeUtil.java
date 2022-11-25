@@ -11,7 +11,7 @@ import com.bubo.quartz.domain.SysJob;
 /**
  * 任务执行工具
  *
- * @author ruoyi
+ * @author bubo
  */
 public class JobInvokeUtil
 {

@@ -14,7 +14,7 @@ import com.bubo.system.service.ISysConfigService;
 /**
  * 注册验证
  * 
- * @author ruoyi
+ * @author bubo
  */
 @RestController
 public class SysRegisterController extends BaseController

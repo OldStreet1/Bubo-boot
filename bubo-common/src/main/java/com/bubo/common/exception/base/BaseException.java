@@ -9,7 +9,7 @@ import lombok.ToString;
 /**
  * 基础异常
  *
- * @author ruoyi
+ * @author bubo
  */
 
 @Getter

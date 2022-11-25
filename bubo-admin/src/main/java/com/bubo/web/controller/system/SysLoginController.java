@@ -20,7 +20,7 @@ import com.bubo.system.service.ISysMenuService;
 /**
  * 登录验证
  *
- * @author ruoyi
+ * @author bubo
  */
 @RestController
 public class SysLoginController

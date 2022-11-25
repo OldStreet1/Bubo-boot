@@ -29,7 +29,7 @@ import com.bubo.system.service.ISysUserService;
 /**
  * 登录校验方法
  *
- * @author ruoyi
+ * @author bubo
  */
 @Component
 public class SysLoginService
