@@ -1,5 +1,7 @@
 package com.bubo.knowledge.cases;
 
+import com.sun.media.jfxmediaimpl.HostUtils;
+
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -37,6 +39,7 @@ public class HorseChessboard {
                 System.out.print(step + "\t");
             }
             System.out.println();
+            
         }
     }
     /**
