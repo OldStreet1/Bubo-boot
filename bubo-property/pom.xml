@@ -8,7 +8,7 @@
         <artifactId>Bubo-boot</artifactId>
         <version>3.8.1</version>
     </parent>
-
+    <!-- 资产管理-->
     <artifactId>bubo-property</artifactId>
 
     <properties>
