@@ -26,6 +26,14 @@
             <optional>false</optional>
         </dependency>
         <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-mp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.github.xinyang-pan</groupId>
+            <artifactId>wechat4j</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.healthmarketscience.jackcess</groupId>
             <artifactId>jackcess</artifactId>
             <version>2.1.4</version>

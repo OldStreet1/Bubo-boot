@@ -73,6 +73,15 @@
             <artifactId>bubo-property</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-mp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.github.xinyang-pan</groupId>
+            <artifactId>wechat4j</artifactId>
+        </dependency>
+
 
     </dependencies>
 

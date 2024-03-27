@@ -1,7 +1,7 @@
 // 应用全局配置
 module.exports = {
-  baseUrl: 'http://localhost:8080',
-  // baseUrl: 'http://vue.ruoyi.vip/prod-api',
+  // baseUrl: 'http://localhost:8080',
+  baseUrl: 'http://vue.ruoyi.vip/prod-api',
   // 应用信息
   appInfo: {
     // 应用名称
@@ -21,6 +21,10 @@ module.exports = {
         title: "用户服务协议",
         url: "https://ruoyi.vip/protocol.html"
       }
-    ]
+    ],
+    //百度地图
+    baidumap:{
+      ak:"123"
+    }
   }
 }

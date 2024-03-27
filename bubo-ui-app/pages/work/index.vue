@@ -70,6 +70,18 @@
           </view>
         </uni-grid-item>
       </uni-grid>
+
+    </view>
+    <uni-section title="菜单" type="line"></uni-section>
+    <view class="grid-body">
+      <uni-grid :column="4" :showBorder="false" @change="changeMenu">
+        <uni-grid-item :index="1">
+          <view class="grid-item-box">
+            <uni-icons type="map-filled" size="30"></uni-icons>
+            <text class="text">地图展示</text>
+          </view>
+        </uni-grid-item>
+      </uni-grid>
     </view>
   </view>
 </template>
@@ -100,7 +112,23 @@
         this.current = e.detail.current
       },
       changeGrid(e) {
+
         this.$modal.showToast('模块建设中~')
+      },
+      changeMenu(e) {
+        var detail = e.detail
+        var url = null;
+        console.log(detail.index)
+        switch (detail.index)
+        {
+          case 1:
+              url = "/pages/mine/info/edit"
+                break;
+        }
+        if (url){
+          this.$tab.navigateTo(url)
+        }
+        console.log(JSON.stringify(e))
       }
     }
   }
