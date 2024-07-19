@@ -251,17 +251,6 @@
             </dependency>
 
 
-            <!-- 微信公众号消息推送-->
-            <dependency>
-                <groupId>com.github.binarywang</groupId>
-                <artifactId>weixin-java-mp</artifactId>
-                <version>4.6.0</version>
-            </dependency>
-            <dependency>
-                <groupId>io.github.xinyang-pan</groupId>
-                <artifactId>wechat4j</artifactId>
-                <version>0.2.2</version>
-            </dependency>
 
         </dependencies>
     </dependencyManagement>

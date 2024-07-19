@@ -14,7 +14,7 @@ CREATE TABLE `property_type`
     `STROKE_WEIGHT`  varchar(50) DEFAULT NULL COMMENT '线的宽度',
     `FILL_COLOUR`    varchar(50) DEFAULT NULL COMMENT '填充颜色',
     `MAP_ICON`       varchar(50) DEFAULT NULL COMMENT '地图图标',
-    `DORG_ID`        varchar(32) DEFAULT NULL COMMENT '独管单位ID',
+    `EXTEND_CONF`     text COMMENT '扩展字段,JSON格式',
     `DELETE_FLAG`    char(1)     DEFAULT NULL COMMENT '删除标识',
     `CREATE_TIME`    char(14)    DEFAULT NULL COMMENT '创建时间',
     `UPDATE_TIME`    char(14)    DEFAULT NULL COMMENT '修改时间',
@@ -23,7 +23,7 @@ CREATE TABLE `property_type`
 ) COMMENT='资产管理类型';
 
 
-CREATE TABLE `cm_component_info`
+CREATE TABLE `property_info`
 (
     `ID`                 int(11) NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `OBJ_ID`             varchar(32)  DEFAULT NULL COMMENT '主键',
