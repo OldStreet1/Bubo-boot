@@ -264,6 +264,7 @@
         <module>bubo-common</module>
         <module>bubo-knowledge</module>
         <module>bubo-property</module>
+        <module>bubo-video</module>
     </modules>
     <packaging>pom</packaging>
 
