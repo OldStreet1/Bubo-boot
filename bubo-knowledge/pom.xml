@@ -33,6 +33,10 @@
             <type>jar</type>
             <optional>false</optional>
         </dependency>
+        <dependency>
+            <groupId>com.bubo</groupId>
+            <artifactId>bubo-common</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

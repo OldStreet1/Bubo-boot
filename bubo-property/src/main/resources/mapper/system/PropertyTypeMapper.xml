@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.bubo.system.mapper.PropertyTypeMapper">
+<mapper namespace="com.bubo.property.mapper.PropertyTypeMapper">
     
     <resultMap type="PropertyType" id="PropertyTypeResult">
         <result property="id"    column="ID"    />

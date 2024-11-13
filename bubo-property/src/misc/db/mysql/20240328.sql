@@ -16,8 +16,8 @@ CREATE TABLE `property_type`
     `MAP_ICON`       varchar(50) DEFAULT NULL COMMENT '地图图标',
     `EXTEND_CONF`     text COMMENT '扩展字段,JSON格式',
     `DELETE_FLAG`    char(1)     DEFAULT NULL COMMENT '删除标识',
-    `CREATE_TIME`    char(14)    DEFAULT NULL COMMENT '创建时间',
-    `UPDATE_TIME`    char(14)    DEFAULT NULL COMMENT '修改时间',
+    `CREATE_TIME`    datetime     COMMENT '创建时间',
+    `UPDATE_TIME`    datetime     COMMENT '修改时间',
     `CREATE_USER`    varchar(32) DEFAULT NULL COMMENT '创建人',
     PRIMARY KEY (`ID`)
 ) COMMENT='资产管理类型';
@@ -35,10 +35,11 @@ CREATE TABLE `property_info`
     `ENABLE_STATUS`      char(1)      DEFAULT NULL COMMENT '启用状态 1 启用 2 禁用',
     `ADDRESS`            varchar(500) DEFAULT NULL COMMENT '地址',
     `REMARK`             varchar(500) DEFAULT NULL COMMENT '备注',
+    `EXTEND`             text COMMENT '扩展字段,JSON格式',
     `DORG_ID`            varchar(32)  DEFAULT NULL COMMENT '独管单位ID',
     `DELETE_FLAG`        char(1)      DEFAULT NULL COMMENT '删除标识',
-    `CREATE_TIME`        char(14)     DEFAULT NULL COMMENT '创建时间',
-    `UPDATE_TIME`        char(14)     DEFAULT NULL COMMENT '修改时间',
+    `CREATE_TIME`        datetime      COMMENT '创建时间',
+    `UPDATE_TIME`        datetime      COMMENT '修改时间',
     `CREATE_USER`        varchar(32)  DEFAULT NULL COMMENT '创建人',
     PRIMARY KEY (`ID`)
 )COMMENT='资产管理信息';
